@@ -1,0 +1,77 @@
+.navbar {
+    position: relative;
+    z-index: 1;
+    background-color: #F5F5F5;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+#logo {
+    height: 40px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: auto;
+    background-color: #009147;
+    border-bottom: #F08533;
+}
+
+.info {
+    margin-top: 50px;
+    font-size: 14px;
+}
+.visi{
+    font-size: 120px;
+    color: #009147;
+    text-shadow: 5px 3px 2px#DFDFDF ;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px; /* spasi antar huruf */
+    margin-left: -320px;
+}
+.misi{
+    font-size: 120px;
+    color: #009147;
+    text-shadow: 5px 3px 2px#DFDFDF ;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px; /* spasi antar huruf */
+    margin-top: -130px;
+    position: relative;
+    margin-left: 50px;
+}
+.info img {
+    height: 95%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    shadow
+}
+.posisi {
+    text-align: center;
+}
+
+/* desktop */
+
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: black !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+        /*geser-kanan, geser-bawah, tebal-bayangan */
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .nav-link:hover {
+        /*ketika disorot mouse*/
+        border-bottom: 3px solid #F08533;
+        margin-bottom: -4px;
+    }

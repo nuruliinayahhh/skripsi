@@ -1,0 +1,46 @@
+.navbar{
+	position: relative;
+    z-index: 1;
+    background-color: rgba(218, 218, 218, 0.158);
+}
+.navbar-brand{
+	text-transform: uppercase;
+}
+.tombol{
+	text-transform: uppercase;
+	border-radius: 20px;
+	width: auto;
+	background-color: #009147;
+	border-bottom:#F08533 ;
+}
+.list-group a{
+	color: black;
+}
+#logo {
+	height: 40px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.info span{
+    font-size: 30px;
+}
+
+
+@media (min-width: 992px) {
+	.navbar-brand, .nav-link {
+		color: black !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.1); /*geser-kanan, geser-bawah, tebal-bayangan */
+	}
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 20px;
+	}
+	.nav-link:hover{ /*ketika disorot mouse*/
+		border-bottom: 3px solid #F08533;
+		margin-bottom: -4px;
+	}
+	.info{
+		margin-top: 50px;
+	}
+}
